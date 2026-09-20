@@ -1,0 +1,15 @@
+# Secrets and local environment settings
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+backend/src/main/resources/application.properties
+
+# Generated files
+frontend/node_modules/
+frontend/dist/
+backend/target/
+
+# Local editor files
+.idea/
+.vscode/
+*.iml
